@@ -47,7 +47,7 @@ public class EstudanteController {
 		estudanteService.excluirEstudanteById(id);
 	}
 	
-	@GetMapping("/estudantes/{id}")
+	@GetMapping("/estudante/{id}")
 	public Estudante getEstudanteById(@PathVariable Long id) {
 		return estudanteService.getEstudanteById(id);
 	}
